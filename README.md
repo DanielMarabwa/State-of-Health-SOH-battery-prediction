@@ -5,12 +5,12 @@ The State of Health (SOH) of a battery indicates how its current capacity compar
 
 The **State of Health (SOH)** of a battery measures how much usable capacity remains compared to its initial condition.
 
-A **cycle** refers to one complete charge–discharge process of a battery. In other words, when a battery is used from 100% charge down to 0%, one full cycle is completed.
+A **cycle** refers to one complete charge and discharge process of a battery. In other words, when a battery is used from 100% down to 0%, one full cycle is completed.
 
 The SOH is calculated as:
 
 **SOH** = (Cap(W) / Cap(i)) × 100%
 
 Where:
-- **Cap(W)**: Battery capacity at cycle *W* (after a certain number of charge–discharge cycles)
+- **Cap(W)**: Battery capacity at cycle *W* (after a certain number of charge and discharge cycles)
 - **Cap(i)**: Initial battery capacity when the battery was new
