@@ -9,9 +9,7 @@ A **cycle** refers to one complete charge–discharge process of a battery. In o
 
 The SOH is calculated as:
 
-\[
-\text{SOH} = \left( \frac{\text{Cap}(W)}{\text{Cap}(i)} \right) \times 100\%
-\]
+**SOH** = (Cap(W) / Cap(i)) × 100%
 
 Where:
 - **Cap(W)**: Battery capacity at cycle *W* (after a certain number of charge–discharge cycles)
