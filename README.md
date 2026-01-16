@@ -12,4 +12,4 @@ The SOH is calculated as:
 Where:
 - **Cap(W)**: Battery capacity at cycle *W* (after a certain number of charge and discharge cycles)
 - **Cap(i)**: Initial battery capacity when the battery was new
-- A **cycle** refers to one complete charge and discharge process of a battery. In other words, when a battery is used from 100% down to 0%, one full cycle is completed.
+- A **cycle** refers to one complete charge and discharge process of a battery. In other words, when a battery is used from 100% down to 0% and then charged back to 100%, one full cycle is completed.
