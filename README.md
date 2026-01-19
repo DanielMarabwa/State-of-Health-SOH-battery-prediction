@@ -20,9 +20,9 @@ The data used in this project comes from the NASA Battery Data Set. Lithium-ion 
 
 A data collection process, implemented in Python, was used to extract the battery data from the original MATLAB files, transform it into useful features, and convert it into a dataframe and a CSV file. Please refer to **"Extracted Features and Explaination of Data"** (under the **"Battery Data"** section) for further details.
 
-Original data set link: https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
+Link to dataset: https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
 
-Download: https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip
+Download data: https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip
 
 Data Set Citation: B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames Research Center, Moffett Field, CA
 
