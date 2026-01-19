@@ -13,3 +13,9 @@ Where:
 - **Cap(W)**: Battery capacity at cycle *W* (after a certain number of charge and discharge cycles)
 - **Cap(i)**: Initial battery capacity when the battery was new
 - A **cycle** refers to one complete charge and discharge process of a battery. In other words, when a battery is used from 100% down to 0% and then charged back to 100%, one full cycle is completed.
+
+## Data
+
+The data used in this project comes from the NASA Battery Data Set. Lithium-ion batteries underwent charging, discharging, and impedance cycles continuously until they reached End-of-Life (EOL) criteria, defined as a 20% to 30% fade in rated capacity. Data from these experiments was recorded and stored in MATLAB files. Please refer to the **MATLAB Data Description** (under the **Battery Data** section) for further details.
+
+A data collection process, implemented in Python, was used to extract the battery data from the original MATLAB files, transform it into useful features, and convert it into a dataframe and a CSV file. Please refer to **Extracted Features** (under the **Battery Data** section) for further details.
