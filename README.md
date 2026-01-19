@@ -46,7 +46,7 @@ This notebook converts 29 Matlab battery files into a DataFrame and then a CSV f
 
 Prequisties: **Battery_input_features_updated.csv**
 
-In this notebook, the modeling process is split into two parts: pre-optimization and post-optimization. Pre-optimization means that we take the dataset and do not implement any exploratory data analysis (EDA) in order to evaluate the baseline performance of the model. Post-optimization means that we apply feature engineering (deriving new features), EDA, outlier removal, grid search, and backward elimination to the dataset before passing the data through the model. Three models were built and trained using both the pre-optimization and post-optimization approaches.
+In this notebook, the modeling process is split into two parts: pre-optimization and post-optimization. Pre-optimization means that we take the dataset and do not implement any exploratory data analysis (EDA) in order to evaluate the baseline performance of the model. Post-optimization means that we apply feature engineering (deriving new features), EDA, outlier removal, grid search,data pre-processing and backward elimination to the dataset before passing the data through the model. Three models were built and trained using both the pre-optimization and post-optimization approaches.
 
 
 
