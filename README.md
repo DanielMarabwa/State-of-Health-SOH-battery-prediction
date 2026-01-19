@@ -21,5 +21,32 @@ The data used in this project comes from the NASA Battery Data Set. Lithium-ion 
 A data collection process, implemented in Python, was used to extract the battery data from the original MATLAB files, transform it into useful features, and convert it into a dataframe and a CSV file. Please refer to **"Extracted Features and Explaination of Data"** (under the **"Battery Data"** section) for further details.
 
 Original data set link: https://www.nasa.gov/intelligent-systems-division/discovery-and-systems-health/pcoe/pcoe-data-set-repository/
+
 Download: https://phm-datasets.s3.amazonaws.com/NASA/5.+Battery+Data+Set.zip
+
 Data Set Citation: B. Saha and K. Goebel (2007). “Battery Data Set”, NASA Prognostics Data Repository, NASA Ames Research Center, Moffett Field, CA
+
+## Code
+
+The code is split into 3 parts that are not intergrated. 
+
+**Part 1: Explore Matlab Battery Data Structure.ipynb** 
+
+Prerequisites: Battery **B0005.mat** (under the **Battery Data** section)
+
+This notebook conducts an exploratory analysis of Matlab battery data. This aids in understanding the data structure of the battery files.
+
+**Part 2: Data Cleaning.ipynb** 
+
+Prerequisites: All 29 batteries (under the **Battery Data** section)
+
+This notebook converts 29 Matlab battery files into a DataFrame and then a CSV file (**"Battery_input_features_updated.csv"**). Seventeen features are extracted by aggregating the battery-related data.
+
+**Part 3: EDA and Model Build.ipynb** 
+
+Prequisties: **Battery_input_features_updated.csv**
+
+In this notebook, the modeling process is split into two parts: pre-optimization and post-optimization. Pre-optimization means that we take the dataset and do not implement any exploratory data analysis (EDA) in order to evaluate the baseline performance of the model. Post-optimization means that we apply feature engineering (deriving new features), EDA, outlier removal, grid search, and backward elimination to the dataset before passing the data through the model. Three models were built and trained using both the pre-optimization and post-optimization approaches.
+
+
+
