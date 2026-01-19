@@ -40,7 +40,7 @@ This notebook conducts an exploratory analysis of Matlab battery data. This aids
 
 Prerequisites: All 29 batteries (under the **Battery Data** section)
 
-This notebook converts 29 Matlab battery files into a DataFrame and then a CSV file (**"Battery_input_features_updated.csv"**). Seventeen features are extracted by aggregating the battery-related data.
+This notebook converts 29 Matlab battery files into a DataFrame and then a CSV file (**"Battery_input_features_updated.csv"**). Seventeen features are extracted by aggregating the battery-related data. The features are then used to build the final models.
 
 **Part 3: EDA and Model Build.ipynb** 
 
