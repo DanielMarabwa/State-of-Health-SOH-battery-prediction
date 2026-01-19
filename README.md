@@ -34,7 +34,7 @@ The code is split into 3 parts that are not intergrated.
 
 Prerequisites: Battery **B0005.mat** (under the **Battery Data** section)
 
-This notebook conducts an exploratory analysis of Matlab battery data. This aids in understanding the data structure of the battery files.
+This notebook conducts an exploratory analysis of battery 5 (**B0005.mat**). This aids in understanding the data structure of the battery files.
 
 **Part 2: Data Cleaning.ipynb** 
 
